@@ -26,7 +26,8 @@ Elements of an array are separated by _______.
 What exactly do we mean by "literal" anyway?
 
 
-To access a property of an object, we write the name of the object followed by _______, and then the name of the property we want.
+To access a property or method of an object, we write the name of the object followed by _______,
+and then the name of the property or method we want.
 
 How would you access the *i*th element of the array referenced by the variable `arr`?
 
@@ -54,14 +55,16 @@ What is the difference between *undefined* and *null*?
 Provide a few examples of Boolean operators along with examples of how we might use them.
 
 
-How does the ternary operator work and what is its chief use case (there is a right answer to this question). (It might help you to ask: what makes a ternary different from an if-then-else?)
+How does the ternary operator work and what is its chief use case? (There is a right answer to this question. It might help you to ask: what makes a ternary different from an if-then-else?)
 
 
 What is the difference between a for-in and a for-of loop?
 
 
-How does the `.map` array method work?
+How does the `.map` array method work? (Other array methods like `.filter` and `.every` are important to know as well but `.map` is the one you will need to be fluent in.)
 
+
+Describe how JavaScript evaluates a chained expression like `str.split('-').reverse().join('_')`. (I'm not asking for a description of what this code does as much as a step-by-step analysis of how it is read and executed. What part is evaluated first, and then second and so on? What objects are the methods attached to?)
 
 
 
@@ -75,7 +78,7 @@ What are some methods to access existing elements on a page as JS objects?
 Describe the process of creating new elements and attaching them to the page using JavaScript.
 
 
-What are the two arguments we can provide when calling the `fetch` function?
+What are the two arguments we can provide when calling the `fetch` function? (Bonus: under what circumstances can we omit the second argument completely?)
 
 
 
