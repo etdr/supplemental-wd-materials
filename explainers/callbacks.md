@@ -101,7 +101,7 @@ but instead the return value of `func` after we call it.
 So, here, `runFunc` receives 5 as an argument since this is the value of `func()`.
 
 Sometimes we want this behavior! But this is not a callback,
-it's just running one function on the result of another function.
+it's just running one function on the result of another function (the technical term here would be *function composition*).
 When you hear "callback" you should think of a function receiving another function as one of its arguments.
 
 
